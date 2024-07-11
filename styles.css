@@ -13,12 +13,21 @@ img {
     height: 100vh;
 }
 
+.logo {
+    position: absolute;
+    width: 5vw;
+    height: auto;
+    left: 15px;
+    top: 15px;
+}
+
 .right {
     display: flex;
     align-items: center;
 }
 
 .content-container {
+    min-width: 900px;
     height: fit-content;
     margin-left: 50px;
 }
@@ -50,6 +59,8 @@ input, label {
 input {
     border: none;
     border-bottom: 2px solid black;
+    font-size: 1.1rem;
+    padding: 10px 10px;
 }
 
 label {
@@ -61,8 +72,8 @@ button {
     width: fit-content;
     padding: 20px 35px;
     border-radius: 10px;
-    background-color: black;
-    border: 1px soliid black;
+    background-color: rgba(0, 0, 0, 0.918);
+    border: 1px solid black;
 }
 
 h1 {
@@ -84,6 +95,30 @@ p, a {
 a {
     color: rgba(0, 0, 255, 0.596);
 }
+
+input:valid {
+    border-color: green;
+}
+
+input:invalid:focus {
+    border: none;
+    border-bottom: 2px solid red;
+}
+
+input:focus {
+    outline: none;
+}
+
+.logo-text {
+    position: absolute;
+    left: 15px;
+    top: 10px;
+    color: rgba(255, 255, 255, 0.822);
+    font-size: 3rem;
+    text-shadow: 4px 4px 4px #000000;
+}
+
+
 
 
 
