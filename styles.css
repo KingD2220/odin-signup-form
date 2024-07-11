@@ -21,15 +21,18 @@ img {
     top: 15px;
 }
 
+.left {
+    display: flex;
+}
+
 .right {
     display: flex;
     align-items: center;
 }
 
 .content-container {
-    min-width: 900px;
     height: fit-content;
-    margin-left: 50px;
+    margin-left: 70px;
 }
 
 fieldset {
